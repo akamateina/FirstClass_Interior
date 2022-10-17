@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Captivate Interiors | About</title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <section class="container-fluid" style="background-color: beige;">
+
+    <!-- Header -->
+    <div class="row">
+      <header style="background-color: rgb(255, 183, 0); color:white">
+        <div class="col-sm-1"><img src="/images/logo-removebg-preview.png" height="90px" alt="Logo"
+            style="float: left;"></div>
+        <div class="display-1 col-sm-11 text-center">Captivate Interiors</div>
+      </header>
+    </div>
+
+
+    <div class="row">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="text-center">
+      <h1>Meet Our Staff</h1>
+    </div>
+    <!-- ======= CEO Section ======= -->
+    <section class="container-fluid mt-6">
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img id="CEO_img" src="/images/Staff/staff-ceo2.jpg" class=" mt-3 mb-3 border border-4 border-dark rounded"
+            width="100%" alt="">
+        </div>
+        <div class="col-lg-8 mt-3 align-middle">
+          <div id="CEO_heading" class="display-1"><strong>CEO Daniel Nguyen</strong></div>
+          <div id="CEO_desc" class="display-4 ">
+            Daniel Nguyen founded Captivate Interiors in 2008 with his wife, Amanda.
+            Since founding the company, Daniel has launched multiple branches across
+            New Zealand and now has one of the most successful interior design companies.
+          </div>
+          <button id="CEO_btn" class="btn btn-primary" type="button" onclick="changeID()">Switch</button>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- ======= Staff Section ======= -->
+    <section>
+      <div class="row">
+
+        <!-- ======STAFF 1========================================================================================== -->
+        <div id="staff1" onmouseover="showBtn1()" onmouseout="hideBtn1()"
+          class="col border border-1 border-dark rounded m-5" style="background-color: rgb(255, 183, 0); color:white;">
+          <!-- image -->
+          <div class="pt-2 mb-3 text-center">
+            <h3>Sarah Nicolas</h3>
+            <img src="/images/Staff/staff1.jpg" class="border border-4 rounded" height="300px" alt="">
+          </div>
+          <!-- Description -->
+          <div class="p pb-3">
+            Sarah is a hard-working lady who helps our clients with managing their prices. Come see her when you have
+            the chance!
+          </div>
+          <button id="btn1" class="btn btn-primary mb-3 w-100" type="button" style="visibility: hidden;"
+            onclick="hideStaff1()">Hide</button>
+        </div>
+
+
+        <!-- =======STAFF 2========================================================================================== -->
+        <div id="staff2" onmouseover="showBtn2()" onmouseout="hideBtn2()"
+          class="col border border-1 border-dark rounded m-5" style="background-color: rgb(255, 183, 0); color:white">
+          <!-- image -->
+          <div class="pt-2 mb-3 text-center">
+            <h3>Janet Atkinson</h3>
+            <img src="/images/Staff/staff2.jpg" class="border border-4 rounded" height="300px" alt="">
+          </div>
+          <!-- Description -->
+          <div class="p pb-3">
+            Janet is the creative mind of our crew. She is actually insane with how much she can imagine. Go Janet!
+          </div>
+          <button id="btn2" class="btn btn-primary mb-3 w-100" type="button" style="visibility: hidden;"
+            onclick="hideStaff2()">Hide</button>
+        </div>
+
+
+
+        <!-- ======STAFF3================================================================================================ -->
+        <div id="staff3" onmouseover="showBtn3()" onmouseout="hideBtn3()"
+          class="col border border-1 border-dark rounded m-5" style="background-color: rgb(255, 183, 0); color:white">
+          <!-- image -->
+          <div class="pt-2 mb-3 text-center">
+            <h3>Paul George</h3>
+            <img src="/images/Staff/staff3.jpg" class="border border-4 rounded" height="300px" alt="">
+          </div>
+          <!-- Description -->
+          <div class="p pb-3">
+            Paul George retired from the NBA but he found a passion for interior design. He is pretty tall.
+          </div>
+          <button id="btn3" class="btn btn-primary mb-3 w-100" type="button" style="visibility: hidden;"
+            onclick="hideStaff3()">Hide</button>
+        </div>
+
+
+        <!-- ======STAFF4============================================================================================= -->
+        <div id="staff4" onmouseover="showBtn4()" onmouseout="hideBtn4()"
+          class="col border border-1 border-dark rounded m-5" style="background-color: rgb(255, 183, 0); color:white">
+          <!-- image -->
+          <div class="pt-2 mb-3 text-center">
+            <h3>Kevin Ham</h3>
+            <img src="/images/Staff/staff4.jpg" class="border border-4 rounded" height="300px" alt="">
+          </div>
+          <!-- Description -->
+          <div class="p pb-3">
+            Kevin looks like a Kevin, but he doesn't like ham. Don't talk to him about ham. He gets angry.
+          </div>
+          <button id="btn4" class="btn btn-primary mb-3 w-100" type="button" style="visibility: hidden;"
+            onclick="hideStaff4()">Hide</button>
+        </div>
+
+        
+        <!-- ======STAFF5============================================================================================= -->
+        <div id="staff5" onmouseover="showBtn5()" onmouseout="hideBtn5()"
+          class="col border border-1 border-dark rounded m-5" style="background-color: rgb(255, 183, 0); color:white">
+          <!-- image -->
+          <div class="pt-2 mb-3 text-center">
+            <h3>Sue Kim</h3>
+            <img src="/images/Staff/staff5.jpg" class="border border-4 rounded" height="300px" alt="">
+          </div>
+          <!-- Description -->
+          <div class="p pb-3">
+            Sue. 
+          </div>
+          <button id="btn5" class="btn btn-primary mb-3 w-100" type="button" style="visibility: hidden;"
+            onclick="hideStaff5()">Hide</button>
+        </div>
+
+        <div class="col"></div>
+
+      </div>
+    </section>
+
+  </section>
+
+
+  <!-- Footer -->
+  <div class="text-center bg-dark pt-2 pb-2">
+    <footer>
+      <a href="https://www.facebook.com"><img src="/images/facebook.png" alt="" height="35px"></a>
+      <a href="https://www.instagram.com"><img src="/images/Instagram_icon.png" alt="" height="35px"></a>
+      <a href="https://nz.linkedin.com"><img src="/images/LinkedIn_icon.png" alt="" height="35px"></a>
+      <a href="https://twitter.com/home?lang=en"><img src="/images/Twitter-logo.png" alt="" height="35px"></a>
+    </footer>
+  </div>
+
+
+  <script>
+
+    function changeID() {
+      var CEO_heading = document.getElementById('CEO_heading');
+      var CEO_desc = document.getElementById('CEO_desc');
+      var CEO_img = document.getElementById('CEO_img');
+      var CEO_btn = document.getElementById('CEO_btn');
+
+
+      if (CEO_heading.textContent == "CEO Daniel Nguyen") {
+        CEO_heading.innerHTML = 'MD Harry Powell'
+        CEO_desc.innerHTML = 'Harry Powell was a singer before he came to help us. Great person.'
+        CEO_img.src = "/images/Staff/staff-md.jpg"
+      } else {
+        CEO_heading.innerHTML = 'CEO Daniel Nguyen'
+        CEO_desc.innerHTML = "Daniel Nguyen founded Captivate Interiors in 2008 with his wife, Amanda." +
+          " Since founding the company, Daniel has launched multiple branches across" +
+          " New Zealand and now has one of the most successful interior design companies."
+        CEO_img.src = "/images/Staff/staff-ceo2.jpg"
+      }
+
+    }
+
+
+    // Staff1
+    function showBtn1() {
+      var btn1 = document.getElementById('btn1');
+      btn1.style.visibility = "visible";
+    }
+
+    function hideBtn1() {
+      var btn1 = document.getElementById('btn1');
+      btn1.style.visibility = "hidden";
+    }
+
+    function hideStaff1() {
+      var staff1 = document.getElementById('staff1');
+      staff1.style.visibility = "hidden";
+    }
+
+
+    // Staff 2
+    function showBtn2() {
+      var btn2 = document.getElementById('btn2');
+      btn2.style.visibility = "visible";
+    }
+
+    function hideBtn2() {
+      var btn2 = document.getElementById('btn2');
+      btn2.style.visibility = "hidden";
+    }
+
+    function hideStaff2() {
+      var staff2 = document.getElementById('staff2');
+      staff2.style.visibility = "hidden";
+    }
+
+
+    // Staff 3
+    function showBtn3() {
+      var btn3 = document.getElementById('btn3');
+      btn3.style.visibility = "visible";
+    }
+
+    function hideBtn3() {
+      var btn3 = document.getElementById('btn3');
+      btn3.style.visibility = "hidden";
+    }
+
+    function hideStaff3() {
+      var staff3 = document.getElementById('staff3');
+      staff3.style.visibility = "hidden";
+    }
+
+
+    // Staff 4
+    function showBtn4() {
+      var btn4 = document.getElementById('btn4');
+      btn4.style.visibility = "visible";
+    }
+
+    function hideBtn4() {
+      var btn4 = document.getElementById('btn4');
+      btn4.style.visibility = "hidden";
+    }
+
+    function hideStaff4() {
+      var staff4 = document.getElementById('staff4');
+      staff4.style.visibility = "hidden";
+    }
+
+
+    // Staff 5
+    function showBtn5() {
+      var btn5 = document.getElementById('btn5');
+      btn5.style.visibility = "visible";
+    }
+
+    function hideBtn5() {
+      var btn5 = document.getElementById('btn5');
+      btn5.style.visibility = "hidden";
+    }
+
+    function hideStaff5() {
+      var staff5 = document.getElementById('staff5');
+      staff5.style.visibility = "hidden";
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>
